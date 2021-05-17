@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script src="form.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <title>Assignment 2 - Website Building</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+
+
+        <form id="form" class="form">
+            <div class="form-control">
+                <label for="username">Username</label>
+                <input type="text" placeholder="username" id="username" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-times"></i>
+                <small>Error message</small>
+            </div>
+
+            <div class="form-control">
+                <label for="username">Password</label>
+                <input type="password" placeholder="password" id="password" />
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-times"></i>
+                <small>Error message</small>
+            </div>
+
+            <button>Submit</button>
+        </form>
+        <div class="message-container">
+            <h3 id="message"></h3>
+        </div>
+    </div>
+</body>
+
+</html>
